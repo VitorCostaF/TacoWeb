@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+.ingredient-group {
+	font-size: 20px;
+	text-align: center;
+	border: 2px;
+	
+}
+
+.ingredient-cheese {
+	background-color: rgb(255, 255, 102);
+	border-color: yellow;
+	border-style: solid;	
+}
+
+.ingredient-veggie {
+	background-color: rgb(166, 253, 153);
+	border-color: green;
+	border-style: solid;
+}
+
+.ingredient-protein {
+	background-color: rgb(253, 37, 39);
+	border-color: red;
+	border-style: solid;
+}
+
+.ingredient-wrap {
+	background-color: rgb(181, 181, 83);
+	border-color: navy;
+	border-style: solid;
+}
+
+.ingredient-sauce {
+	background-color: rgb(135, 113, 58);
+	border-color: maroon;
+	border-style: solid;
+}
+
+.alertBox {
+	position: fixed;
+	width: 200px;
+	height: 50px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.submitTaco {
+	text-align: center;
+}
+
+.validationError {
+	color: red;
+}
